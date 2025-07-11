@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "CyberLab",
+    "subtitle": "Netzwerkszenario-Plattform"
+  },
+  "nav": {
+    "home": "Startseite",
+    "networks": "Netzwerke",
+    "settings": "Einstellungen",
+    "archives": "Archive",
+    "activity": "Aktivität",
+    "profile": "Profil",
+    "history": "Verlauf",
+    "logout": "Abmelden"
+  },
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "lang": {
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch"
+  },
+  "home": {
+    "configuredArchitectures": "Architektur-Galerie",
+    "customConfiguration": "Benutzerdefinierte Konfiguration",
+    "customConfigurationDesc": "Erstellen Sie Ihre eigene Konfiguration, indem Sie ein Protokoll, eine Architektur und ein Testszenario auswählen.",
+    "selectArchitecture": "Wählen Sie eine Architektur, um Details anzuzeigen",
+    "searchPlaceholder": "Suchen Sie nach einer Architektur...",
+    "deployOnKubernetes": "Auf Kubernetes bereitstellen",
+    "deployFullConfiguration": "Komplette Konfiguration bereitstellen",
+    "yamlInputTitle": "YAML-Konfiguration",
+    "yamlInputDescription": "Fügen Sie hier Ihre YAML-Konfiguration ein, um ein vollständiges Szenario bereitzustellen.",
+    "processYaml": "YAML verarbeiten"
+  },
+  "protocol": {
+    "title": "Protokollauswahl",
+    "new": "Neues Protokoll",
+    "complexity": {
+      "beginner": "Anfänger",
+      "intermediate": "Fortgeschritten",
+      "advanced": "Experte"
+    },
+    "category": {
+      "transport": "Transport",
+      "routing": "Routing"
+    }
+  },
+  "architecture": {
+    "title": "Architektur-Konfiguration",
+    "new": "Neue Architektur",
+    "difficulty": {
+      "simple": "Einfach",
+      "medium": "Mittel",
+      "complex": "Komplex"
+    },
+    "nodes": "Knoten",
+    "topology": {
+      "linear": "Linear",
+      "star": "Stern",
+      "mesh": "Mesh"
+    }
+  },
+  "scenario": {
+    "title": "Szenario-Konfiguration",
+    "new": "Neues Szenario",
+    "complexity": {
+      "basic": "Basis",
+      "intermediate": "Fortgeschritten",
+      "advanced": "Experte"
+    }
+  },
+  "testType": {
+    "ping": "Konnektivitätstest",
+    "load": "Lastsimulation",
+    "fault": "Resilienztest"
+  }
+}

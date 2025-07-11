@@ -1,0 +1,13 @@
+apiVersion: cyberlab.com/v1
+kind: Protocol
+metadata:
+  name: tcp
+spec:
+  name: TCP
+  version: "v4"
+  description: "Transmission Control Protocol for reliable communication"
+  category: transport
+  complexity: Beginner
+  parameters:
+    windowSize: 65535
+    timeout: 30000

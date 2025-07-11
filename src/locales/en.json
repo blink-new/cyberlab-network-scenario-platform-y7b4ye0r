@@ -1,0 +1,80 @@
+{
+  "app": {
+    "title": "CyberLab",
+    "subtitle": "Network Scenario Platform"
+  },
+  "nav": {
+    "home": "Home",
+    "networks": "Networks",
+    "settings": "Settings",
+    "archives": "Archives",
+    "activity": "Activity",
+    "profile": "Profile",
+    "history": "History",
+    "logout": "Logout"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "lang": {
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch"
+  },
+  "home": {
+    "configuredArchitectures": "Configured Architectures",
+    "customConfiguration": "Custom Configuration",
+    "customConfigurationDesc": "Create your own configuration by selecting a protocol, an architecture, and a test scenario.",
+    "selectArchitecture": "Select an architecture to see its details",
+    "searchPlaceholder": "Search for an architecture...",
+    "deployOnKubernetes": "Deploy on Kubernetes",
+    "deployFullConfiguration": "Deploy Full Configuration",
+    "yamlInputTitle": "YAML Configuration",
+    "yamlInputDescription": "Paste your YAML configuration here to deploy a full scenario.",
+    "processYaml": "Process YAML"
+  },
+  "protocol": {
+    "title": "Protocol Selection",
+    "new": "New Protocol",
+    "complexity": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "category": {
+      "transport": "Transport",
+      "routing": "Routing"
+    }
+  },
+  "architecture": {
+    "title": "Architecture Configuration",
+    "new": "New Architecture",
+    "difficulty": {
+      "simple": "Simple",
+      "medium": "Medium",
+      "complex": "Complex"
+    },
+    "nodes": "nodes",
+    "topology": {
+      "linear": "Linear",
+      "star": "Star",
+      "mesh": "Mesh"
+    }
+  },
+  "scenario": {
+    "title": "Scenario Configuration",
+    "new": "New Scenario",
+    "complexity": {
+      "basic": "Basic",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    }
+  },
+  "testType": {
+    "ping": "Connectivity Test",
+    "load": "Load Simulation",
+    "fault": "Resilience Test"
+  }
+}

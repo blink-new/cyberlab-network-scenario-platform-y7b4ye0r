@@ -1,0 +1,158 @@
+{
+  "app": {
+    "title": "CyberLab",
+    "subtitle": "Plateforme de Scénarios Réseau"
+  },
+  "nav": {
+    "home": "Accueil",
+    "networks": "Réseaux",
+    "settings": "Paramètres",
+    "archives": "Archives",
+    "activity": "Activité",
+    "profile": "Profil",
+    "history": "Historique",
+    "logout": "Déconnexion"
+  },
+  "theme": {
+    "light": "Clair",
+    "dark": "Sombre",
+    "system": "Système"
+  },
+  "lang": {
+    "en": "English",
+    "fr": "Français",
+    "de": "Deutsch"
+  },
+  "home": {
+    "configuredArchitectures": "Galerie d'architectures",
+    "customConfiguration": "Configuration personnalisée",
+    "customConfigurationDesc": "Créez votre propre configuration en sélectionnant un protocole, une architecture et un scénario de test.",
+    "selectArchitecture": "Sélectionnez une architecture pour voir ses détails",
+    "searchPlaceholder": "Rechercher une architecture...",
+    "deployOnKubernetes": "Déployer sur Kubernetes",
+    "deployFullConfiguration": "Déployer la Configuration Complète",
+    "yamlInputTitle": "Configuration par YAML",
+    "yamlInputDescription": "Collez votre configuration YAML ici pour déployer un scénario complet.",
+    "processYaml": "Traiter le YAML"
+  },
+  "protocol": {
+    "title": "Choix du Protocole",
+    "new": "Nouveau protocole",
+    "addNew": "Ajouter un nouveau protocole",
+    "name": "Nom",
+    "version": "Version",
+    "category": "Catégorie",
+    "description": "Description",
+    "complexity": "Complexité",
+    "selected": "Protocole sélectionné",
+    "cancel": "Annuler",
+    "add": "Ajouter",
+    "complexity": {
+      "beginner": "Débutant",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé"
+    }
+  },
+  "architecture": {
+    "title": "Configuration de l'Architecture",
+    "new": "Nouvelle architecture",
+    "createNew": "Créer une nouvelle architecture",
+    "name": "Nom",
+    "topology": "Topologie",
+    "description": "Description",
+    "nodesCount": "Nombre de nœuds",
+    "nodes": "nœuds",
+    "difficulty": "Difficulté",
+    "cancel": "Annuler",
+    "create": "Créer",
+    "visualize": "Visualiser",
+    "visualization": "Visualisation",
+    "simulator": "Simulateur",
+    "selectedConfig": "Configuration sélectionnée",
+    "difficulty": {
+      "simple": "Simple",
+      "medium": "Moyen",
+      "complex": "Complexe"
+    }
+  },
+  "scenario": {
+    "title": "Configuration du Scénario",
+    "new": "Nouveau scénario",
+    "complexity": {
+      "basic": "Basique",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé"
+    }
+  },
+  "details": {
+    "architectureDetails": "Détails de l'architecture",
+    "protocol": "Protocole",
+    "scenario": "Scénario",
+    "createdAt": "Créé le",
+    "tags": "Tags"
+  },
+  "category": {
+    "transport": "Transport",
+    "routing": "Routage"
+  },
+  "topology": {
+    "linear": "Linéaire",
+    "star": "Étoile",
+    "mesh": "Maillé"
+  },
+  "testType": {
+    "ping": "Test de Connectivité",
+    "load": "Simulation de Charge",
+    "fault": "Test de Résilience"
+  },
+  "validation": {
+    "protocolRequired": "Protocole requis",
+    "architectureRequired": "Architecture requise",
+    "scenarioRequired": "Scénario requis",
+    "selectAtLeastOne": "Sélection incomplète",
+    "protocolsFetchFailed": "Échec de la récupération des protocoles",
+    "protocolCreateFailed": "Échec de la création du protocole",
+    "architecturesFetchFailed": "Échec de la récupération des architectures",
+    "architectureCreateFailed": "Échec de la création de l'architecture",
+    "scenariosFetchFailed": "Échec de la récupération des scénarios",
+    "scenarioCreateFailed": "Échec de la création du scénario"
+  },
+  "loading": "Chargement...",
+  "retry": "Réessayer",
+  "empty": {
+    "protocols": "Aucun protocole trouvé.",
+    "architectures": "Aucune architecture trouvée.",
+    "scenarios": "Aucun scénario trouvé.",
+    "images": "Aucune image trouvée."
+  },
+  "mock": {
+    "protocol": {
+      "tcp": {
+        "name": "TCP",
+        "description": "Transmission Control Protocol pour communications fiables"
+      },
+      "ospf": {
+        "name": "OSPF",
+        "description": "Open Shortest Path First pour routage dynamique"
+      },
+      "bgp": {
+        "name": "BGP",
+        "description": "Border Gateway Protocol pour routage inter-domaines"
+      }
+    },
+    "architecture": {
+      "linear": {
+        "name": "Réseau linéaire",
+        "description": "Topologie simple en chaîne pour tests basiques"
+      },
+      "star": {
+        "name": "Réseau en étoile",
+        "description": "Topologie centralisée avec point de contrôle unique"
+      },
+      "mesh": {
+        "name": "Réseau maillé",
+        "description": "Topologie complexe avec redondance multiple"
+      }
+    }
+  }
+}

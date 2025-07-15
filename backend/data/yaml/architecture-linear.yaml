@@ -1,0 +1,13 @@
+apiVersion: cyberlab.com/v1
+kind: Architecture
+metadata:
+  name: linear-network
+spec:
+  name: Basic Linear Network
+  topology: linear
+  description: "Simple linear topology for basic testing"
+  nodesCount: 5
+  difficulty: Simple
+  configuration:
+    bandwidth: "100Mbps"
+    latency: "10ms"

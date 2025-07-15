@@ -1,0 +1,14 @@
+apiVersion: cyberlab.com/v1
+kind: Scenario
+metadata:
+  name: basic-connectivity
+spec:
+  name: Basic Connectivity Test
+  testType: ping
+  description: "Simple ping test to verify network connectivity"
+  complexity: Basic
+  duration: 300
+  parameters:
+    packetSize: 64
+    interval: 1000
+    timeout: 5000
